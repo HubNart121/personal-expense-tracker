@@ -125,7 +125,7 @@ export default function ExpenseTracker() {
           setTransactions(data);
           alert('Data imported successfully!');
         }
-      } catch (err) {
+      } catch {
         alert('Failed to import data. Invalid file format.');
       }
     };
